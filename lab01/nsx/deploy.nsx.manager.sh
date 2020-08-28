@@ -1,5 +1,6 @@
 #!/bin/bash
 
+## move vars into JSON?
 VCUSER='administrator@vsphere.local'
 VCPASS='VMware1!'
 VCIP='vcenter.lab'
@@ -7,9 +8,9 @@ ESXHOST="10.30.0.15"
 MGRDATASTORE="ds-vsan"
 MGRPORTGROUP="pg-mgmt"
 
-MGRNAME="nsxm.lab01"
-MGRHOSTNAME="nsxm.lab01"
-MGRIP="10.30.0.117"
+MGRNAME="nsxm.lab02"
+MGRHOSTNAME="nsxm.lab02"
+MGRIP="10.30.0.127"
 MGRMASK="255.255.255.0"
 MGRGW="10.30.0.254"
 MGRDNS="10.30.0.30"
@@ -20,7 +21,7 @@ MGRROOT="True"
 
 ## buildweb links
 BASEURL="http://factory.core.nest:9000/iso" #minio server
-MGROVA="${BASEURL}"/nsx-unified-appliance-3.0.1.1.0.16556500.ova
+MGROVA="${BASEURL}/nsx-unified-appliance-3.0.1.1.0.16556500.ova"
 
 # --powerOn
 ovftool --noSSLVerify --skipManifestCheck \

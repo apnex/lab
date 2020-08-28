@@ -1,0 +1,166 @@
+[
+	{
+		"name": "esx01.core.nest",
+		"addr": "10.30.0.15"
+	},
+	{
+		"name": "esx02.core.nest",
+		"addr": "10.30.0.16"
+	},
+	{
+		"name": "esx03.core.nest",
+		"addr": "10.30.0.17"
+	},
+	{
+		"name": "esx04.core.nest",
+		"addr": "10.30.0.18"
+	},
+	{
+		"name": "esx05.core.nest",
+		"addr": "10.30.0.19"
+	},
+	{
+		"name": "control.core.nest",
+		"addr": "10.30.0.30"
+	},
+	{
+		"name": "factory.core.nest",
+		"addr": "10.30.0.31"
+	},
+	{
+		"name": "vcenter.core.nest",
+		"addr": "10.30.0.32"
+	},
+	{
+		"name": "vcenter.lab01",
+		"addr": "10.30.0.110"
+	},
+	{
+		"name": "esx11.lab01",
+		"addr": "10.30.0.111"
+	},
+	{
+		"name": "esx12.lab01",
+		"addr": "10.30.0.112"
+	},
+	{
+		"name": "esx13.lab01",
+		"addr": "10.30.0.113"
+	},
+	{
+		"name": "esx14.lab01",
+		"addr": "10.30.0.114"
+	},
+	{
+		"name": "esx15.lab01",
+		"addr": "10.30.0.115"
+	},
+	{
+		"name": "esx16.lab01",
+		"addr": "10.30.0.116"
+	},
+	{
+		"name": "nsxm.lab01",
+		"addr": "10.30.0.117"
+	},
+	{
+		"name": "nsxe.lab01",
+		"addr": "10.30.0.118"
+	},
+	{
+		"name": "avic.lab01",
+		"addr": "10.30.0.119"
+	},
+	{
+		"name": "vcenter.lab02",
+		"addr": "10.30.0.120"
+	},
+	{
+		"name": "esx21.lab02",
+		"addr": "10.30.0.121"
+	},
+	{
+		"name": "esx22.lab02",
+		"addr": "10.30.0.122"
+	},
+	{
+		"name": "esx23.lab02",
+		"addr": "10.30.0.123"
+	},
+	{
+		"name": "esx24.lab02",
+		"addr": "10.30.0.124"
+	},
+	{
+		"name": "esx25.lab02",
+		"addr": "10.30.0.125"
+	},
+	{
+		"name": "esx26.lab02",
+		"addr": "10.30.0.126"
+	},
+	{
+		"name": "nsxm.lab02",
+		"addr": "10.30.0.127"
+	},
+	{
+		"name": "nsxe.lab02",
+		"addr": "10.30.0.128"
+	},
+	{
+		"name": "jumphost.lab02",
+		"addr": "10.30.0.129"
+	},
+	{
+		"name": "gitlab.lab02",
+		"addr": "10.30.0.129"
+	},
+	{
+		"name": "planespotter.lab02",
+		"addr": "172.20.20.1"
+	},
+	{
+		"name": "argocd.lab02",
+		"addr": "172.20.20.9"
+	},
+	{
+		"name": "vcenter.lab03",
+		"addr": "10.30.0.120"
+	},
+	{
+		"name": "esx31.lab03",
+		"addr": "10.30.0.131"
+	},
+	{
+		"name": "esx32.lab03",
+		"addr": "10.30.0.132"
+	},
+	{
+		"name": "esx33.lab03",
+		"addr": "10.30.0.133"
+	},
+	{
+		"name": "esx34.lab03",
+		"addr": "10.30.0.134"
+	},
+	{
+		"name": "esx35.lab03",
+		"addr": "10.30.0.135"
+	},
+	{
+		"name": "esx36.lab03",
+		"addr": "10.30.0.136"
+	},
+	{
+		"name": "nsxm.lab03",
+		"addr": "10.30.0.137"
+	},
+	{
+		"name": "nsxe.lab03",
+		"addr": "10.30.0.138"
+	},
+	{
+		"name": "jumphost.lab03",
+		"addr": "10.30.0.139"
+	}
+]
