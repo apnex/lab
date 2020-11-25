@@ -1,15 +1,16 @@
 {
 	"__version": "2.13.0",
+	"__comments": "Sample template to deploy a vCenter Server Appliance with an embedded Platform Services Controller on an ESXi host.",
 	"new_vcsa": {
 		"vc": {
-			"hostname": "vcenter.core.nest",
+			"hostname": "vcenter.lab",
 			"username": "administrator@vsphere.local",
-			"password": "VMware1!SDDC",
+			"password": "ObiWan1!",
 			"deployment_network": "pg-mgmt",
 			"datacenter": [
-				"nest"
+				"mel.nest"
 			],
-			"datastore": "ds-vsan",
+			"datastore": "ds-esx09",
 			"target": [
 				"cmp"
 			]
@@ -17,22 +18,22 @@
 		"appliance": {
 			"thin_disk_mode": true,
 			"deployment_option": "tiny",
-			"name": "vcenter.lab02"
+			"name": "vcenter.lab01"
 		},
 		"network": {
 			"ip_family": "ipv4",
 			"mode": "static",
-			"ip": "10.30.0.120",
+			"ip": "172.16.10.100",
 			"dns_servers": [
-				"10.30.0.30"
+				"172.16.10.1"
 			],
 			"prefix": "24",
-			"gateway": "10.30.0.254",
-			"system_name": "vcenter.lab02"
+			"gateway": "172.16.10.1",
+			"system_name": "vcenter.lab01"
 		},
 		"os": {
 			"password": "VMware1!SDDC",
-			"ntp_servers": "10.30.0.30",
+			"ntp_servers": "172.16.10.1",
 			"ssh_enable": true
 		},
 		"sso": {

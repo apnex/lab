@@ -72,6 +72,10 @@
 		"addr": "10.30.0.119"
 	},
 	{
+		"name": "ilovestarwars.lab01",
+		"addr": "172.20.10.50"
+	},
+	{
 		"name": "vcenter.lab02",
 		"addr": "10.30.0.120"
 	},
@@ -125,7 +129,7 @@
 	},
 	{
 		"name": "vcenter.lab03",
-		"addr": "10.30.0.120"
+		"addr": "10.30.0.130"
 	},
 	{
 		"name": "esx31.lab03",
@@ -162,5 +166,45 @@
 	{
 		"name": "jumphost.lab03",
 		"addr": "10.30.0.139"
+	},
+	{
+		"name": "vcenter.lab04",
+		"addr": "10.30.0.140"
+	},
+	{
+		"name": "esx41.lab04",
+		"addr": "10.30.0.141"
+	},
+	{
+		"name": "esx42.lab04",
+		"addr": "10.30.0.142"
+	},
+	{
+		"name": "esx43.lab04",
+		"addr": "10.30.0.143"
+	},
+	{
+		"name": "esx44.lab04",
+		"addr": "10.30.0.144"
+	},
+	{
+		"name": "esx45.lab04",
+		"addr": "10.30.0.145"
+	},
+	{
+		"name": "avic.lab04",
+		"addr": "10.30.0.146"
+	},
+	{
+		"name": "nsxm.lab04",
+		"addr": "10.30.0.147"
+	},
+	{
+		"name": "nsxe.lab04",
+		"addr": "10.30.0.148"
+	},
+	{
+		"name": "jumphost.lab04",
+		"addr": "10.30.0.149"
 	}
 ]

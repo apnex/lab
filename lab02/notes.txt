@@ -1,0 +1,29 @@
+## LOCAL Catalogue
+Hi Greg! Thanks for your note on the new APJ dcs - I am indeed looking to create a local catalogue - where do I start ?
+
+labops.sh/control-plane/lab01
+
+## NTP - what server should we use?
+CORP ENG NTP servers
+
+NTP server :  ns1-ph1-eat.eng.vmware.com
+NTP server :  ns2-ph1-eat.eng.vmware.com
+ntpdate -b -s 10.166.1.120
+ntpdate -b -u 10.166.1.120
+
+
+Start with 2 vAPPs
+## Have a full NSX 3.1 environment
+
+## Have a 'blank' vAPP - controller only
+
+## Import a 'prepared' vAPP - controller +
+
+## labops-lab01
++ Networks
+-- OrgVDC
+-- lab01-fabric
++ VM
+-- router
+-- 4cpu, 4GB, 32GB hdd
+-- 2x nics - each Net

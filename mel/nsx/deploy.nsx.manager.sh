@@ -3,14 +3,14 @@
 ## move vars into JSON?
 VCUSER='administrator@vsphere.local'
 VCPASS='VMware1!'
-VCIP='vcenter.lab'
+VCIP='vcenter.core.nest'
 ESXHOST="10.30.0.15"
 MGRDATASTORE="ds-vsan"
 MGRPORTGROUP="pg-mgmt"
 
-MGRNAME="nsxm.lab02"
-MGRHOSTNAME="nsxm.lab02"
-MGRIP="10.30.0.127"
+MGRNAME="nsxm.lab04"
+MGRHOSTNAME="nsxm.lab04"
+MGRIP="10.30.0.147"
 MGRMASK="255.255.255.0"
 MGRGW="10.30.0.254"
 MGRDNS="10.30.0.30"
