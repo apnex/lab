@@ -35,13 +35,10 @@ function health {
 RUNNING=$(docker ps -q -f name="${SERVICENAME}")
 if [[ -z "$RUNNING" ]]; then
 	printf "[${SERVICENAME}] not running - now starting\n" 1>&2
-	docker pull "apnex/${IMAGENAME}"
-	tee /etc/resolv.conf <<-EOF
-		nameserver 127.0.0.1
-	EOF
+	touch /etc/resolv.conf
 	docker run -d -P --net host \
 		--name "${SERVICENAME}" \
 		${VOLMOUNTS}		\
-	"apnex/${IMAGENAME}"
+	apnex/"${IMAGENAME}"
 	#health
 fi

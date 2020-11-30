@@ -1,74 +1,38 @@
 [
 	{
-		"name": "esx01.core.nest",
-		"addr": "10.30.0.15"
-	},
-	{
-		"name": "esx02.core.nest",
-		"addr": "10.30.0.16"
-	},
-	{
-		"name": "esx03.core.nest",
-		"addr": "10.30.0.17"
-	},
-	{
-		"name": "esx04.core.nest",
-		"addr": "10.30.0.18"
-	},
-	{
-		"name": "esx05.core.nest",
-		"addr": "10.30.0.19"
-	},
-	{
-		"name": "control.core.nest",
-		"addr": "10.30.0.30"
-	},
-	{
-		"name": "factory.core.nest",
-		"addr": "10.30.0.31"
-	},
-	{
-		"name": "vcenter.core.nest",
-		"addr": "10.30.0.32"
+		"name": "router.lab01",
+		"addr": "172.16.10.1"
 	},
 	{
 		"name": "vcenter.lab01",
-		"addr": "10.30.0.110"
+		"addr": "172.16.10.110"
 	},
 	{
 		"name": "esx11.lab01",
-		"addr": "10.30.0.111"
+		"addr": "172.16.10.111"
 	},
 	{
 		"name": "esx12.lab01",
-		"addr": "10.30.0.112"
+		"addr": "172.16.10.112"
 	},
 	{
 		"name": "esx13.lab01",
-		"addr": "10.30.0.113"
+		"addr": "172.16.10.113"
 	},
 	{
 		"name": "esx14.lab01",
-		"addr": "10.30.0.114"
-	},
-	{
-		"name": "esx15.lab01",
-		"addr": "10.30.0.115"
-	},
-	{
-		"name": "esx16.lab01",
-		"addr": "10.30.0.116"
+		"addr": "172.16.10.114"
 	},
 	{
 		"name": "nsxm.lab01",
-		"addr": "10.30.0.117"
+		"addr": "172.16.10.117"
 	},
 	{
 		"name": "nsxe.lab01",
-		"addr": "10.30.0.118"
+		"addr": "172.16.10.118"
 	},
 	{
 		"name": "avic.lab01",
-		"addr": "10.30.0.119"
+		"addr": "172.16.10.119"
 	}
 ]
